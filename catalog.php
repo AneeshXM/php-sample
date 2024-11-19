@@ -18,6 +18,7 @@ if (isset($_GET["cat"])) {
   }
 }
 
+
 include("inc/header.php"); ?>
 
 <div class="section catalog page">
