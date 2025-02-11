@@ -2,7 +2,7 @@
 include("inc/data.php");
 include("inc/functions.php");
 
-$pageTitle = "Personal Media Library";
+$pageTitle = "Personal Media Library1";
 $section = null;
 
 include("inc/header.php"); ?>
