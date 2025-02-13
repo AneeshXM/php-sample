@@ -7,7 +7,7 @@ pipeline {
                 sshPublisher(publishers: [sshPublisherDesc(configName: 'apache', transfers: [sshTransfer(
                     cleanRemote: false, 
                     excludes: '', 
-                    execCommand: 'sudo systemctl restart apache2', // Restart Apache after deployment
+                    execCommand: 'sudo systemctl restart apache', // Restart Apache after deployment
                     execTimeout: 120000, 
                     flatten: false, 
                     makeEmptyDirs: false, 
